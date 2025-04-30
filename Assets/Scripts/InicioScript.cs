@@ -37,7 +37,5 @@ public class InicioScript : MonoBehaviour
      public void OcultarSettings(){
         panelSettings.SetActive(false);
     }
-    public void SuenaBoton(){
-        AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxCoin);
-    }
+    public void SuenaBoton() => AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxButton);
 }

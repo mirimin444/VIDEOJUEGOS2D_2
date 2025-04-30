@@ -98,7 +98,7 @@ public class MovPersonaje : MonoBehaviour
 
        //caida
        if(transform.position.y <= -7){
-        //AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxDead);
+        AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxDead);
         Respawnear();
        }
 

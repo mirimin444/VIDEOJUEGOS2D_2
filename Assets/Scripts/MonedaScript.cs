@@ -28,6 +28,8 @@ public class MonedaScript : MonoBehaviour
             miAnimadorController.SetBool("monedaDestruir", true);
             AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxCoin);
             Destroy(this.gameObject, 1f);
+            
+            
         }
     }
 }
