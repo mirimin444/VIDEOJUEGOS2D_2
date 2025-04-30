@@ -10,6 +10,8 @@ public class AudioManager : MonoBehaviour
    public  AudioClip fxDead;
    public  AudioClip fxFire;
    
+   public AudioClip fxShot;
+   
    AudioSource _audioSource;
 
    public static AudioManager Instance;
