@@ -9,6 +9,7 @@ public class AudioManager : MonoBehaviour
    public  AudioClip fxCoin;
    public  AudioClip fxDead;
    public  AudioClip fxFire;
+   public AudioClip fxShine;
    
    public AudioClip fxShot;
    
